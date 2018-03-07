@@ -213,17 +213,34 @@ header {
 
 .sidebar a.list {
 	font-size: 14px;
-	color: #666fe8;
+	color: #7a8399;
 	margin-bottom: 30px;
 	width: 100%;
 	line-height: 1;
-	border-right: 2px solid #666fe8;
 	background: url(../img/list.png) no-repeat;
 	background-position: left center;
 	padding-left: 25px;
 	display: block;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+.active {
+	color: #666fe8 !important;
+	border-right: 2px solid #666fe8 !important;
+}
+
+.ag_details {
+	background: url(../img/ag-details.png) no-repeat !important;
+}
+
+.ag_settings {
+	background: url(../img/ag-settings.png) no-repeat !important;
+}
+
+.pay_settings {
+	background: url(../img/pay-settings.png) no-repeat !important;
+	line-height: 21px !important;
 }
 
 .main_content {
@@ -581,3 +598,6 @@ input.modal_credit {
 	border-radius: 2px;
 }
 
+.tools {
+	margin-top: 50px;
+}
