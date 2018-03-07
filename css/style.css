@@ -767,3 +767,8 @@ input.modal_credit {
 }
 
 
+.agency_edit input.cancel {
+	margin-right: 10px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+}
