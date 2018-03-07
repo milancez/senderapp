@@ -34,6 +34,9 @@ jQuery(function($) {
 		
 
 		$("td.edit_pay").click(function() {
+			var ag_name = $(this).parent().find("td.ag_name").text();
+			$("#editing_pay .ag_name").text(ag_name);
+
 			var chat7days = $(this).parent().find("td.chat7days").text();
 			$("#editing_pay input.edit_chat7days").val(chat7days);
 
