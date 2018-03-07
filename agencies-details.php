@@ -2,15 +2,15 @@
 	<head>
 		<title>Agencies details</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
 	<body>
 		
 		<header>
 			<div class="admin_logo">
-				<img src="../img/logo.png">
+				<img src="img/logo.png">
 			</div>
 			<div class="admin_title"><b>Pleasure</b>Chatting</div>
 			<div><a href="" class="logout_button">Logout</a></div>
@@ -181,7 +181,7 @@
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script type="text/javascript" src="../js/script.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 
 	</body>
 </html>

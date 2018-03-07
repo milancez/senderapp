@@ -2,15 +2,15 @@
 	<head>
 		<title>Accounts</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
 	<body>
 		
 		<header>
 			<div class="admin_logo">
-				<img src="../img/logo.png">
+				<img src="img/logo.png">
 			</div>
 			<div class="admin_title"><b>Pleasure</b>Chatting</div>
 			<div><a href="" class="logout_button">Logout</a></div>
@@ -27,7 +27,7 @@
 				<div class="content_header">
 					<div class="col col_left">
 						<div class="content_header_img">
-							<img src="../img/wallet.png">
+							<img src="img/wallet.png">
 						</div>
 						<label>Wallet</label>
 						<div class="header_number">$ 0.00</div>
@@ -35,7 +35,7 @@
 					</div>
 					<div class="col col_right">
 						<div class="content_header_img">
-							<img src="../img/numberofacc.png">
+							<img src="img/numberofacc.png">
 						</div>
 						<label>Number of accounts</label>
 						<div class="header_number">29</div>
@@ -74,7 +74,7 @@
 								<td class="name">Marija Markovic</td>
 								<td>19</td>
 								<td>18</td>
-								<td class="edit"><img src="../img/edit.png"></td>
+								<td class="edit"><img src="img/edit.png"></td>
 								<td class="check"><input type="checkbox"></td>
 							</tr>
 							<tr>
@@ -83,7 +83,7 @@
 								<td class="name">Vanja Marinkovic</td>
 								<td>19</td>
 								<td>18</td>
-								<td class="edit"><img src="../img/edit.png"></td>
+								<td class="edit"><img src="img/edit.png"></td>
 								<td class="check"><input type="checkbox"></td>
 							</tr>
 							<tr>
@@ -92,7 +92,7 @@
 								<td class="name">Jelena Jovanovic</td>
 								<td>19</td>
 								<td>18</td>
-								<td class="edit"><img src="../img/edit.png"></td>
+								<td class="edit"><img src="img/edit.png"></td>
 								<td class="check"><input type="checkbox"></td>
 							</tr>
 						</tbody>
@@ -182,7 +182,7 @@
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script type="text/javascript" src="../js/script.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 
 	</body>
 </html>
