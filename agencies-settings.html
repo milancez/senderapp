@@ -1,0 +1,266 @@
+<html>
+	<head>
+		<title>Agencies details</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		
+		<header>
+			<div class="admin_logo">
+				<img src="img/logo.png">
+			</div>
+			<div class="admin_title"><b>Pleasure</b>Chatting</div>
+			<div><a href="" class="logout_button">Logout</a></div>
+		</header>
+
+		<div class="admin_content">
+			<div class="sidebar">
+				<div class="sidebar_title"><div>Welcome,<br>Administrator</div></div>
+				<label>DISCOVER</label>
+				<a class="list ag_details" href="">Agencies details</a>
+				<label class="tools">TOOLS</label>
+				<a class="list active ag_settings" href="">Agencies settings</a>
+				<a class="list pay_settings" href="">Payments settings</a>
+			</div>
+
+			<div class="main_content">
+				
+				<div class="profiles">
+
+					<div class="profiles_top">
+						<label>Agencies settings</label>
+
+						<form action="">
+						  <input type="search" class="search_text" name="search" placeholder="Search...">
+						  <input type="submit" value="" class="search_submit">
+						</form>
+
+					</div>
+
+					
+					<table>
+						<thead>
+							<tr>
+								<th class="rb">#</th>
+								<th>Agency name</th>
+								<th>Email</th>
+								<th>Credits left</th>
+								<th>Add credit</th>
+								<th>Edit</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="rb">1</td>
+								<td class="name">Agency Name 1</td>
+								<td>agency@gmail.com</td>
+								<td>$0</td>
+								<td class="add_credit"><img src="img/add-credit.png"></td>
+								<td class="edit"><img src="img/edit.png"></td>
+							</tr>
+							<tr>
+								<td class="rb">2</td>
+								<td class="name">Agency Name 2</td>
+								<td>agency@gmail.com</td>
+								<td>$50</td>
+								<td class="add_credit"><img src="img/add-credit.png"></td>
+								<td class="edit"><img src="img/edit.png"></td>
+							</tr>
+							<tr>
+								<td class="rb">3</td>
+								<td class="name">Agency Name 3</td>
+								<td>agency@gmail.com</td>
+								<td>$10</td>
+								<td class="add_credit"><img src="img/add-credit.png"></td>
+								<td class="edit"><img src="img/edit.png"></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div class="buttons">
+						<input type="button" name="" class="add" value="Add new agency">
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="editing">
+			<div class="modal_box agency_edit">
+				<div class="profiles">
+
+					<div class="profiles_top">
+						<label>Profiles in <span class="ag_name"></span></label>
+
+						<form action="">
+						  <input type="search" class="search_text" name="search" placeholder="Search...">
+						  <input type="submit" value="" class="search_submit">
+						</form>
+
+					</div>
+					
+
+					
+					<table>
+						<thead>
+							<tr>
+								<th class="rb">#</th>
+								<th>ID</th>
+								<th>Lady’s name</th>							
+								<th>Delete</th>							
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="rb">1</td>
+								<td>1881980</td>
+								<td class="name">Marija Markovic</td>				
+								<td class="edit"><img src="img/delete.png"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							<tr>
+								<td class="rb"></td>
+								<td></td>
+								<td class="name"></td>				
+								<td class="edit"></td>								
+							</tr>
+							
+						</tbody>
+					</table>
+
+					<nav aria-label="Page navigation">
+					  <ul class="pagination">
+					    <li>
+					      <a href="#" aria-label="Previous">
+					        <span aria-hidden="true">&laquo;</span>
+					      </a>
+					    </li>
+					    <li><a href="#">1</a></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">4</a></li>
+					    <li><a href="#">5</a></li>
+					    <li>
+					      <a href="#" aria-label="Next">
+					        <span aria-hidden="true">&raquo;</span>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>
+
+					<div class="buttons">						
+						<input type="button" name="" class="add add_new_profile" value="Add new profile">
+						<input type="button" name="" class="confirm" value="Confirm">
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="add_new">
+			<div class="modal_box">
+				<div class="modal_title">Adding New Agency</div>
+				<form class="modal_content" action="" method="GET">
+					<label>Agency Name:</label>
+					<input type="text" value="" name="agency_name" class="agency_name">
+					<label>Email Address:</label>
+					<input type="text" value="" name="agency_mail" class="agency_mail">
+					<label>Password:</label>
+					<input type="text" value="" name="agency_pass" class="agency_pass">
+				</form>
+				<div class="modal_buttons">
+					<input type="submit" class="confirm float_none" value="Add" name="submit_modal">
+					<input type="button" class="cancel" value="Cancel" name="submit_modal">
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="add_new_profile">
+			<div class="modal_box">
+				<div class="modal_title">Adding New Profile</div>
+				<form class="modal_content" action="" method="GET">
+					<label>ID:</label>
+					<input type="text" value="" name="agency_name" class="agency_name">
+					<label>Lady's name:</label>
+					<input type="text" value="" name="agency_mail" class="agency_mail">
+				</form>
+				<div class="modal_buttons">
+					<input type="submit" class="confirm float_none" value="Add" name="submit_modal">
+					<input type="button" class="cancel" value="Cancel" name="submit_modal">
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="credit">
+			<div class="modal_box">
+				<div class="modal_title">Adding Credits to <span class="ag_name"></span></div>
+				<form class="modal_content" action="" method="GET">
+					<div class="credit_box">
+						<label>Amount:</label>
+						<input type="text" val="" class="amount_credit"><span class="dolar">$</span>
+						
+					</div>
+				</form>
+				<div class="modal_buttons">
+					<input type="submit" class="confirm float_none" value="Add" name="submit_modal">
+					<input type="button" class="cancel" value="Cancel" name="submit_modal">
+				</div>
+			</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+
+	</body>
+</html>
+

@@ -433,7 +433,7 @@ table tr {
     height: 15px;
 }
 
-.edit {
+.edit, .add_credit {
 	cursor: pointer;
 }
 
@@ -600,4 +600,122 @@ input.modal_credit {
 
 .tools {
 	margin-top: 50px;
+}
+
+.amount_credit {
+	width: 70px;
+	float: left !important;
+}
+
+.dolar {
+	line-height: 31px;
+    padding-left: 5px;
+}
+
+.agency_edit {
+	width: 515px;
+	padding: 0;
+}
+
+.add_new_profile {
+	float: left !important;
+}
+
+.confirm {
+	line-height: 1;
+    border: none;
+    padding: 10px 26px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    float: right;
+    background: #686fe8;
+}
+
+.agency_edit .profiles {
+	margin: 0;
+}
+
+.agency_edit .buttons {
+	padding: 0 10px;
+}
+
+.agency_edit .profiles_top {
+	background: #766be8;
+}
+
+.agency_edit .profiles_top label {
+	color: #fff;
+	font-weight: normal;
+}
+
+.agency_edit .profiles_top form {
+	background: #fff;
+}
+
+.agency_edit .rb {
+	padding-left: 10px;
+}
+
+.agency_edit td {
+	height: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.agency_edit nav {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.float_none {
+	float: none;
+}
+
+#add_new_profile .modal_title {
+	text-align: left;
+	padding: 10px;
+	background: #696ee8;
+	border: 0;
+	color: #fff;
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+#add_new_profile .modal_box {
+	padding: 0;
+	
+}
+
+#add_new_profile .modal_content {
+	padding: 15px 10px 20px 10px;
+	margin-bottom: 0;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+#add_new_profile .modal_buttons {
+	padding-bottom: 10px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+#add_new_profile .modal_buttons .confirm {
+	color: #fff;
+	background: #37e8bf;
+	border: 0;
+	border-radius: 0;
+}
+
+#add_new_profile .modal_buttons .cancel {
+	color: #fff;
+	background: #f67f76;
+	border: 0;
+	border-radius: 0;
+}
+
+#add_new_profile.modal {
+	background: transparent;
 }
