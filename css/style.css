@@ -597,6 +597,52 @@ input.modal_credit {
 	margin-top: 5px;
 	border-radius: 2px;
 }
+.Veddingbody
+{
+	height: 100vh;
+	margin: 0;
+}
+.svadbaHeader {
+    background-color: rgb(106,110,232);
+    height: 40px;
+    display: flex;
+    padding: 7px;
+}
+.leftsh
+{
+	flex: 1;
+}
+.leftsh img
+{
+	vertical-align: middle;
+}
+.leftIcons
+{
+	    margin-right: 15px;
+    margin-left: 10px;
+}
+.middleh
+{
+    justify-content: center;
+    flex: 4;
+    text-align: center;
+}
+.middleh img
+{
+	vertical-align: middle;
+}
+.rightsh
+{
+	flex: 1;
+    float: right;
+
+    text-align: right;
+}
+.rightsh img
+{
+	vertical-align: middle;
+	margin-right: 15px;
+}
 
 .tools {
 	margin-top: 50px;
@@ -719,3 +765,5 @@ input.modal_credit {
 #add_new_profile.modal {
 	background: transparent;
 }
+
+
