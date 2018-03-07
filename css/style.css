@@ -581,3 +581,7 @@ input.modal_credit {
 	border-radius: 2px;
 }
 
+
+.svadbaHeader {
+	display: flex;
+}
