@@ -7,6 +7,7 @@
 	</head>
 
 	<body>
+		<h1>Welcome</h1>
 		
 		<div class="wrap">
 			<div class="user_form_wrap">
